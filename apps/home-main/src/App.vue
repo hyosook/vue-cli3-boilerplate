@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <h1>First!</h1>
+    <keep-alive include="" >
+      <router-view/>
+    </keep-alive>
   </div>
 </template>
 import { mapGetters, mapMutations, mapActions } from 'vuex'
